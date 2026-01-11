@@ -1,0 +1,24 @@
+<script>
+const PHONE_NUMBER = "5491137559642";
+
+function wa(mensaje) {
+  const link = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(mensaje)}`;
+  window.open(link, "_blank");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const heroBtn = document.getElementById("btnHero");
+  if (heroBtn) {
+    heroBtn.addEventListener("click", function(e){
+      e.preventDefault();
+      wa("Hola! Quiero realizar una consulta.");
+    });
+  }
+
+  window.cotizar = function(tipo){
+    wa("Hola! Quiero consultar por " + tipo + ".");
+  };
+
+});
+</script>
