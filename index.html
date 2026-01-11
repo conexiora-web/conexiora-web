@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title> ✨ Conexiora 🖋️</title>
+
+  </head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">Conexiora</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#seguros">Seguros</a>
+      <a href="#ciudadanias">Ciudadanías</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <h1>Gestión Integral de Seguros y Ciudadanías</h1>
+    <p>Atención personalizada, cotización y cobertura inmediata de Seguros: Automotor, hogar, vida y comercios.  Asesoramiento y Gestión en Ciudadanías</p>
+
+    <a id="btnHero" class="btn-hero" href="#">Consultas por WhatsApp</a>
+  </section>
+
+  <div class="container">
+
+    <!-- BENEFICIOS -->
+    <h2>¿Por qué elegirnos?</h2>
+
+    <div class="benefits">
+      <div class="box">
+        <h3>💰 Precios Competitivos</h3>
+        <p>Trabajamos con aseguradoras líderes y te conseguimos la mejor relación precio–cobertura.</p>
+      </div>
+      <div class="box">
+        <h3>⚡ Cotización Rápida</h3>
+        <p>Respondemos en minutos para que tomes decisiones sin perder tiempo.</p>
+      </div>
+      <div class="box">
+        <h3>💬 Atención por WhatsApp</h3>
+        <p>Resolvemos todo por mensaje: súper fácil y directo.</p>
+      </div>
+      <div class="box">
+        <h3>📄 Documentación Simple</h3>
+        <p>Olvidate de trámites complicados: nosotros hacemos todo por vos.</p>
+      </div>
+    </div>
+
+    <!-- PLANES -->
+    <h2 id="seguros" style="margin-top:50px;">Elegí tu tipo de seguro</h2>
+
+    <div class="plans">
+      <div class="plan">
+        <h3>🚗 Automotor</h3>
+        <p>Terceros completo, todo riesgo, robo, granizo y más.</p>
+        <a class="btn-plan" onclick="cotizar('Seguro Automotor')">Cotizar</a>
+      </div>
+      <div class="plan">
+        <h3>🏠 Hogar</h3>
+        <p>Incendio, daños por agua, robo, cristales y responsabilidad civil.</p>
+        <a class="btn-plan" onclick="cotizar('Seguro del Hogar')">Cotizar</a>
+      </div>
+      <div class="plan">
+        <h3>🧍 Vida</h3>
+        <p>Protección para vos y tu familia ante cualquier imprevisto.</p>
+        <a class="btn-plan" onclick="cotizar('Seguro de Vida')">Cotizar</a>
+      </div>
+      <div class="plan">
+        <h3> 🏬 Comercio</h3>
+        <p>Incendio, daños por agua, robo, cristales y responsabilidad civil.</p>
+        <a class="btn-plan" onclick="cotizar('Seguro del Comercio')">Cotizar</a>
+      </div>
+      <div class="plan">
+        <h3> ✈️ Asistencia al Viajero</h3>
+        <p>Emergencias médicas, Robo o pérdida de equipaje.</p>
+        <a class="btn-plan" onclick="cotizar('Seguro de Asistencia al Viajero')">Cotizar</a>
+      </div>
+     <div class="plan">
+        <h3> 👤 Otros</h3>
+        <p>Responsabilidad Civil, Mala Praxis, Otros.</p>
+        <a class="btn-plan" onclick="cotizar('Otros Seguros')">Cotizar</a>
+      </div>
+    </div>
+
+<!-- PLANES -->
+    <h2 id="ciudadanias" style="margin-top:50px;">Consultá por Ciudadanías</h2>
+
+    <div class="plans">
+      <div class="plan">
+        <h3>🇪🇸 Española</h3>
+        <p>Asesoramiento informativo y administrativo para evaluar acceso a la nacionalidad española por origen u otras vías legales.</p>
+        <a class="btn-plan" onclick="cotizar('Ciudadanía Española')">Consultar</a>
+      </div>
+      <div class="plan">
+        <h3>🇮🇹 Italiana</h3>
+        <p>Orientación para el reconocimiento de la ciudadanía italiana por descendencia y revisión de documentación.</p>
+        <a class="btn-plan" onclick="cotizar('Ciudadanía Italiana')">Consultar</a>
+      </div>
+      <div class="plan">
+        <h3>🇫🇷 Francesa</h3>
+        <p>Orientación sobre posibles vías legales de adquisición de la nacionalidad francesa.</p>
+        <a class="btn-plan" onclick="cotizar('Ciudadanía Francesa')">Consultar</a>
+      </div>
+      <div class="plan">
+        <h3>🇵🇱 Polaca</h3>
+        <p>Evaluación informativa de antecedentes familiares para determinar acceso a la nacionalidad polaca por descendencia.</p>
+                <a class="btn-plan" onclick="cotizar('Ciudadanía Polaca')">Consultar</a>
+      </div>
+      <div class="plan">
+        <h3>🇵🇹 Portuguesa</h3>
+        <p>Asesoramiento sobre vías de acceso a la nacionalidad portuguesa por ascendencia y requisitos generales.</p>
+        <a class="btn-plan" onclick="cotizar('Ciudadanía Portuguesa')">Consultar</a>
+      </div>
+     <div class="plan">
+        <h3>🇩🇪 Alemana </h3>
+        <p>Asesoramiento informativo sobre procesos de restitución o adquisición de la nacionalidad alemana.</p>
+        <a class="btn-plan" onclick="cotizar('Alemana')">Consultar</a>
+      </div>
+</div>
+
+    <!-- TESTIMONIOS -->
+    <h2 id="testimonios" style="margin-top:60px;">Testimonios de Clientes</h2>
+
+    <div class="testimonials">
+      <div class="testimonial">
+        “Me respondieron al instante y me pasaron tres opciones. Elegí la mejor y en 10 minutos tenía todo.”
+        <br><strong>— Laura M.</strong>
+      </div>
+      <div class="testimonial">
+        “Muy buena atención. Me explicaron cada detalle de la póliza, súper claros.”
+        <br><strong>— Martín S.</strong>
+      </div>
+      <div class="testimonial">
+        “La renovación automática me salvó. Excelente servicio.”
+        <br><strong>— Carolina D.</strong>
+      </div>
+    </div>
+
+    </div>
+
+<!-- INFORMACIÓN LEGAL -->
+    <div class="card">
+        <h2>Disclaimer</h2>
+     <!-- INFORMACIÓN LEGAL -->
+    <div   <p><strong>Asesora Comercial dependiente del Productor de Seguros:</strong> Karenina Dabek.</p>
+        <p style="text-align: justify;"><strong>Productor Asesor de Seguros Responsable</strong>: Maria Cecilia Zanlongo - Matrícula SSN: 106011. Persona Física. Habilitado por la Superintendencia de Seguros de la Nación (SSN) – República Argentina.
+
+La información presentada en esta página tiene fines exclusivamente informativos y comerciales.
+Las coberturas, beneficios, precios y condiciones mencionados son descripciones generales y pueden variar según la compañía aseguradora, la evaluación del riesgo y las políticas vigentes de suscripción.
+
+La contratación de cualquier póliza queda sujeta a la evaluación y aprobación final de la compañía aseguradora, única entidad habilitada para determinar primas, coberturas, exclusiones y montos asegurados.
+
+Como Asesora Comercial, brindo orientación, asistencia y gestión inicial, actuando bajo la supervisión y responsabilidad del Productor Asesor Matriculado.
+Las condiciones definitivas estarán detalladas únicamente en la póliza emitida por la aseguradora.
+
+La prestadora brinda servicios de asesoramiento, orientación y gestión administrativa, no ejerciendo funciones propias de abogado, escribano ni gestor público matriculado cuando la ley lo exige.
+Las resoluciones finales de trámites de ciudadanías dependen exclusivamente de organismos oficiales (Consulados, Embajadas, Registros, etc.). No se garantiza la obtención de la ciudadanía ni tiempos de resolución.
+</p>
+
+
+    </div>
+
+</div>
+
+<section id="contacto" class="container">
+  <h2>Contacto</h2>
+
+  <div class="plans">
+    <div class="plan">
+      <h3>📲 WhatsApp</h3>
+      <p>Respuesta inmediata para cotizar seguros o consultar ciudadanías.</p>
+      <a class="btn-plan" href="https://wa.me/5491137559642" target="_blank">
+        Escribirme por WhatsApp
+      </a>
+    </div>
+
+    <div class="plan">
+      <h3>📧 Email</h3>
+      <p>Consultas detalladas o envío de documentación.</p>
+      <a class="btn-plan" href="mailto:conexiora@gmail.com">
+        Enviar Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <p style="text-align: justify;"><strong>Política de Privacidad:</strong>
+Los datos proporcionados voluntariamente por el usuario son tratados con estricta confidencialidad y utilizados para: brindar información sobre seguros, responder consultas, enviar cotizaciones, iniciar contacto comercial y mantener una relación informativa vinculada a los productos consultados.
+
+<strong>Cesión de Datos</strong>
+Los datos podrán ser compartidos únicamente con el Productor Asesor de Seguros y las compañías aseguradoras necesarias para cotizar o emitir pólizas. Nunca se venderán, alquilarán ni cederán con fines ajenos a la actividad aseguradora.
+
+<strong>Derechos del Usuario</strong>
+El titular de los datos puede solicitar: acceso, rectificación, actualización y supresión. Conforme a la Ley 25.326: El titular de los datos puede, en cualquier momento, solicitar el retiro o bloqueo de su nombre de los bancos de datos.
+
+</p>
+    <p style="text-align: justify;"><strong>Términos y Condiciones:</strong> El acceso y uso de este sitio implica la aceptación plena de los presentes Términos y Condiciones. ✔ Uso del Sitio: El usuario se compromete a brindar datos veraces y completos. Toda información entregada será utilizada únicamente para proporcionar asesoramiento y contacto comercial. ✔ Limitación de Responsabilidad: La Asesora Comercial no es responsable por: decisiones tomadas por el usuario basadas en contenidos informativos, demoras o cambios en procesos internos de la aseguradora, interpretaciones erróneas de ejemplos, gráficos o textos informativos, errores u omisiones derivados de información brindada por terceros o por las aseguradoras. ✔ Modificaciones: Los contenidos pueden ser actualizados sin previo aviso.  La contratación final depende de la aprobación de la aseguradora.</p>
+
+<p><strong>Contacto</strong> WhatsApp: +5491137559642 / Email: conexiora@gmail.com</p>
+</footer>
+
+<script>
+  const PHONE_NUMBER = "5491137559642"; // ← Reemplazar ej: 54911XXXXXXXX
+
+  function wa(mensaje) {
+    const link = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(mensaje)}`;
+    location.href = link;
+  }
+
+  // Botón principal
+  document.getElementById("btnHero").onclick = () =>
+    wa("Hola! Quiero realizar una consulta.");
+
+  // Botón final
+  document.getElementById("btnFinal").onclick = () =>
+    wa("Hola! Estoy listo/a para cotizar mi seguro.");
+
+  // Botones por tipo de seguro
+  function cotizar(tipo) {
+    wa(`Hola! Quiero consultar por ${tipo}.`);
+
+  }
+</script>
+
+</body>
+</html>
